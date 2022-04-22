@@ -11,7 +11,7 @@
 	$valor="";
  }
 ?>
-
+<a href="frmProducto.php">Ir a Productos</a><br><br>
 <b> REGISTRO DE CATEGORIAS  </b>
 <form id="form1" name="form1" method="post" action="frmCategoria.php">
   <table width="400" border="0">

@@ -14,7 +14,7 @@
 <a href="frmProducto.php">Ir a Productos</a><br><br>
 <b> REGISTRO DE CATEGORIAS  </b>
 <form id="form1" name="form1" method="post" action="frmCategoria.php">
-  <table width="400" border="0">
+  <table width="500" border="0">
     <tr> <td> </td>
      <td>
      <input name="txtIdCategoria" id="txtIdCategoria" type="hidden" value="<?php if(isset($_GET['pid_categoria'])){ echo $_GET['pid_categoria'];};?>" />

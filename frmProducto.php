@@ -24,6 +24,7 @@ function abreBuscarCategoria(){
 ?>
 
 <center>
+<a href="frmCategoria.php">Ir a Categorias</a><br><br>
 <b> REGISTRO DE PRODUCTOS  </b>
 <form id="form1" name="form1" method="post" action="frmProducto.php">
 <input name="txtIdProducto" type="hidden"  value="<?php if(isset($_GET['pid_producto'])){ echo $_GET['pid_producto'];}?>" 
